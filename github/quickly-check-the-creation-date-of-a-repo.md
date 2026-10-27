@@ -20,4 +20,4 @@ and then you can just hit `Ctrl+F` and search for `created_at`. That's it!
 
 ---
 
-[source](https://stackoverflow.com/questions/23611669/how-to-find-the-created-date-of-a-repository-project-on-github).
+[source](https://stackoverflow.com/questions/23611669/how-to-find-the-created-date-of-a-repository-project-on-github)
