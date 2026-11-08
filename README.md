@@ -14,8 +14,14 @@ I am definitely not the owner/"comer-uper" of this idea. I first saw this from [
 
 - [GitHub](#github)
 
+- [Ruby](#ruby)
+
 ---
 
 ### GitHub
 
 - [Quickly Check the Creation Date of a Repo](github/quickly-check-the-creation-date-of-a-repo.md)
+
+### Ruby
+
+- [Use Atomic File Operations](ruby/use-atomic-file-operations.md)
