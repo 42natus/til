@@ -72,7 +72,7 @@ But what if we did something like this:
 name&.index('x').to_i #=> 0
 ```
 
-That'd return `0`. Depending on what I want to achieve with such silly code, that could be a problem. The returned `0` could be misconstrued as *"The letter 'x' is at index 0"*. 
+That'd return `0`. Depending on what I wanted to achieve with such silly code, that could be a problem. The returned `0` could be misconstrued as *"The letter 'x' is at index 0"*. 
 
 Using the safe search navigator, though, I could work around this to ensure clarity, like so:
 
