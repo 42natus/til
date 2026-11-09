@@ -40,6 +40,8 @@ FileUtils.mkdir_p('.saves')
 
 Honestly, I don't think this file existence volatility presents any real problem in my case but since common knowledge says to either *not do the existence check* or to *do it but still implement exception handling in case things go wrong anyway*, I'll heed convention.
 
+---
+
 ### Sources
 
 - https://stackoverflow.com/questions/673654/when-is-it-okay-to-check-if-a-file-exists
