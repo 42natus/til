@@ -25,3 +25,5 @@ I am definitely not the owner/"comer-uper" of this idea. I first saw this from [
 ### Ruby
 
 - [Use Atomic File Operations](ruby/use-atomic-file-operations.md)
+
+- [Only Call a Method if the Object is not `nil`](ruby/only-call-a-method-if-the-object-is-not-nil.md)
