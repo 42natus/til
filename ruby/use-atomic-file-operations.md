@@ -12,7 +12,7 @@ to check if the directory existed already.
 
 After running RuboCop though, I found out that this was unnecessary and potentially unsafe. 
 
-### How it's unnecessary
+### Why it's unnecessary
 
 The `Dir#mkdir` method is an idempotent method, meaning no matter how many times it's called (with the same directory path), it always returns the same result as if it'd only been called once. Like how multiplying a number by 1 gives you the original number no matter how many times you multiply it by 1.
 
@@ -24,7 +24,7 @@ Dir.mkdir('.saves')
 
 and if the directory already existed, no harm no foul.
 
-### How it's unsafe
+### Why it's unsafe
 
 It turns out file systems are volatile. Especially cos other running processes could make it so that the result of your existence check could be invalid by the time the control flow reaches the next line. Check out [Sources](#sources) for more on this.
 
