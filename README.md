@@ -30,6 +30,8 @@ I am definitely not the owner/"comer-uper" of this idea. I first saw this from [
 
 - [Only Call a Method if the Object is not `nil`](ruby/only-call-a-method-if-the-object-is-not-nil.md)
 
+- [Get Current Method Name](ruby/get-current-method-name.md)
+
 ### Git
 
 - [Get a Neat View of a Repo's Commit History](git/get-a-neat-view-of-a-repos-commit-history.md)
