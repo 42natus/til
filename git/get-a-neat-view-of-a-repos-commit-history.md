@@ -6,9 +6,17 @@ Discovered this while checking out [Hashrocket's TIL](https://til.hashrocket.com
 git log --oneline --graph --decorate --all
 ```
 
+### Sample output
+
 For [this very repo](https://github.com/42natus/til/tree/108117fd90fb6da5a3f3c3db0b79767a9a26dcb3), this gives the output:
 
-![Snapshot of the output of a long git command to cleanly visualize a repo's commit history](./images/get-a-neat-view-of-a-repos-commit-history.png)
+![Snapshot that shows the git command output on this repo](./images/image-1.png)
+
+On a repo with a more...colorful commit history, it looks something like this:
+
+![Snapshot of output on another repo that better illustrates the git command output](./images/image-2.png)
+
+(The commit history in last image was gotten from my fork of **The Odin Project**'s `custom_enumerable_project` repo)
 
 ---
 
